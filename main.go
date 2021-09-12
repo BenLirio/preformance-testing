@@ -7,7 +7,7 @@ import (
 
 func main() {
 	start := time.Now()
-	for i := 0; i < 1<<22; i++ {
+	for i := 0; i < 1<<31; i++ {
 
 	}
 	duration := time.Since(start)
